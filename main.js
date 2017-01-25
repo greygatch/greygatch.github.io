@@ -7,10 +7,13 @@ function printConsoleMessage(){
 }
 
 function init(){
-  $('#fullpage').fullpage();
+  $('#fullpage').fullpage({
+    navigation: true,
+    navigationPosition: 'left'
+  });
 
   $('.hidden').hide();
-  $('.hidden').fadeIn(2500);
+  $('.hidden').fadeIn(1500);
 
   printConsoleMessage();
 
