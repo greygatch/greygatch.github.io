@@ -10,9 +10,14 @@ body {
 }
 
 #banner{
-  padding: 12em;
+  padding: 5em 10em;
   text-align: center;
   float: left;
+  text-shadow: 1px 1px 1px #634902;
+}
+
+#banner .name{
+  font-weight: bold;
 }
 
 .hidden {
