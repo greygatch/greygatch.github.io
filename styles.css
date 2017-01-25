@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-image: url(./assets/scotland-dark-min.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#banner{
+  padding: 12em;
+  text-align: center;
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .body{
+    font-weight: bold;
+    font-size: 13em;
+  }
+}
