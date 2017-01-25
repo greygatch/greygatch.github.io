@@ -1,8 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-image: url(./assets/scotland-dark-min.jpg);
   background-size: cover;
   margin: 0;
