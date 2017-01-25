@@ -10,7 +10,7 @@ function init(){
   $('#fullpage').fullpage();
 
   $('.hidden').hide();
-  $('.hidden').fadeIn(3000);
+  $('.hidden').fadeIn(2500);
 
   printConsoleMessage();
 

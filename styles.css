@@ -20,8 +20,17 @@ body {
   font-weight: bold;
 }
 
-.hidden {
+.hidden, .indicator {
   display: none;
+}
+
+.card{
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  height: 90%;
+  text-align: center;
+
 }
 
 @media only screen and (min-width: 500px) {
