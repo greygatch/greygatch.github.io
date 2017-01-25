@@ -6,7 +6,7 @@ function printConsoleMessage(){
 
 function init(){
   $('#fullpage').fullpage();
-  
+
   $('.hidden').hide();
   $('.hidden').fadeIn(3000);
 
