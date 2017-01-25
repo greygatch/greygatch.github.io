@@ -14,6 +14,7 @@ body {
   text-align: center;
   float: left;
   text-shadow: 1px 1px 1px #634902;
+  font-size: 1.5em;
 }
 
 #banner .name{
