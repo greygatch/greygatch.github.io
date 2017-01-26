@@ -21,18 +21,33 @@ body {
   font-weight: bold;
 }
 
+#social-container .link{
+  display: inline-block;
+  padding: 5em;
+}
+
+#social-container .link img{
+  background-color: #959f9e;
+  border-radius: 50%;
+  height: 5em;
+}
+
 .hidden, .indicator {
   display: none;
 }
 
 .card{
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(40, 40, 40, 0.75);
+  color: #959f9e;
+  text-shadow: 1px 1px 1px #40300e;
   margin: 2em;
   padding: 2em;
   height: 90%;
   text-align: center;
 
 }
+
+
 
 @media only screen and (min-width: 500px) {
   .body{
