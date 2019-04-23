@@ -19,7 +19,7 @@ function printConsoleMessage() {
   const yoursTruly = {
     name: 'Evan',
     interests: {
-      books: ['hello'],
+      books: ['Aristotle', 'Plato'],
       sports: {
         description: 'I like to play and watch sports.',
         favSports: ['Frisbee, Football, Baseball'],
@@ -28,7 +28,6 @@ function printConsoleMessage() {
       travel: {
         description: 'I love to travel!',
         notableDestinations: ['Europe', 'National Parks', 'Mexico'],
-
       }
     },
     skills: {
@@ -43,7 +42,6 @@ function printConsoleMessage() {
         tools: {},
         skills: {}
       },
-      languages: {},
       paradigms: {
         functional: {
           languages: {
