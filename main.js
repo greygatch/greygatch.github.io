@@ -15,21 +15,50 @@ function init(){
   $('.hidden').fadeIn(1500);
 }
 
-function printConsoleMessage(){
+function printConsoleMessage() {
   const yoursTruly = {
     name: 'Evan',
     interests: {
-      travel: {
-        description: 'I love to travel!',
-        notableDestinations: ['Europe', 'National Parks']
-      },
+      books: ['hello'],
       sports: {
         description: 'I like to play and watch sports.',
-        favSports: ['Frisbee, Football'],
-        favTeams: ['Georgia Bulldogs']
+        favSports: ['Frisbee, Football, Baseball'],
+        favTeams: ['Georgia Bulldogs', 'Atlanta Braves']
+      },
+      travel: {
+        description: 'I love to travel!',
+        notableDestinations: ['Europe', 'National Parks', 'Mexico'],
+
       }
     },
-    skills: {}
+    skills: {
+      computerScience: {
+        aglorithms: {},
+        dataStructures: {}
+      },
+      continuousIntegration: {
+        tools: {}
+      },
+      dataScience: {
+        tools: {},
+        skills: {}
+      },
+      languages: {},
+      paradigms: {
+        functional: {
+          languages: {
+            erlang: {},
+            elixir: {}
+          }
+        },
+        obectOriented: {
+          languages: {
+            javascript: {},
+            python: {}
+          }
+        }
+      }
+    }
   };
-  return JSON.stringify(yoursTruly);
+  return yoursTruly;
 }
