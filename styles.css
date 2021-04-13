@@ -21,6 +21,12 @@ body {
   font-weight: bold;
 }
 
+#about img{
+  border-radius: 5px;
+  padding-top: 5em;
+  height: 35em;
+}
+
 #social-container .link{
   display: inline-block;
   padding: 5em;
@@ -30,6 +36,11 @@ body {
   background-color: #959f9e;
   border-radius: 50%;
   height: 5em;
+}
+
+#social-container a {
+  text-decoration: none;
+  color: white;
 }
 
 .hidden, .indicator {
