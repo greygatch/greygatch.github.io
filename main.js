@@ -167,9 +167,13 @@ function printConsoleMessage() {
     </div>
   `;
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const el = document.getElementById("holiday");
-        if (el) el.innerHTML = output;
-    });
+    console.log('Loading holiday...');
+    const el = document.getElementById("holiday");
+    if (el) el.innerHTML = output;
+    // document.addEventListener("DOMContentLoaded", () => {
+        
+    //     const el = document.getElementById("holiday");
+    //     if (el) el.innerHTML = output;
+    // });
 })();
 
